@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CultCoin</string>
+    <string name="cpf">CPF</string>
+    <string name="password">Senha</string>
+    <string name="login">Login</string>
+    <string name="register">Registrar</string>
+    <string name="scan_qr_bt">Scan QR Code</string>
+    <string name="pay_bt">Pagar</string>
+    <string name="you_got">Olá, você tem</string>
+    <string name="register_cpf">CPF</string>
+    <string name="register_name">Nome</string>
+    <string name="register_password">Senha</string>
+    <string name="register_button">Registrar</string>
+    <string name="title_activity_pay">PayActivity</string>
+</resources>

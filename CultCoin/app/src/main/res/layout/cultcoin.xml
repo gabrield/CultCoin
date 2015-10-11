@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CultcoinActivity"
+    android:weightSum="1">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.10">
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="94dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/coin" />
+        android:layout_gravity="center_horizontal|top" />
+
+    </FrameLayout>
+
+    <EditText android:id="@+id/cpf"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/cpf"
+        android:layout_gravity="center_horizontal" />
+
+
+    <EditText android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:layout_gravity="center_horizontal" />
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_weight="0.20"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:onClick="login"
+            android:text="@string/login" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="126dp"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:onClick="register"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+</LinearLayout>
